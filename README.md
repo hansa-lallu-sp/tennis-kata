@@ -11,3 +11,6 @@ Deuce: in order to be a winner you should score two points twice in succession. 
 Result: current score or who wins
 
 
+Classes
+- scorecard - initialize scorecard with the players 
+- players - initialize with a varibale name   
