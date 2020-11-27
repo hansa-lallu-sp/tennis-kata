@@ -1,6 +1,7 @@
-nick = Player.new('nick')
-hansa = Player.new('hansa')
+require_relative 'player'
+require_relative 'tennis_game'
 
-scoreboard = Scorecard.new(nick, hansa)
+nick = Player.new('Nick')
+hansa = Player.new('Hansa')
 
-TennisGame.new(Scorecard)
+TennisGame.new(nick, hansa)
